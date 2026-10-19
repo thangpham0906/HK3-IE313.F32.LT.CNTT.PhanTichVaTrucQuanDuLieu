@@ -1,0 +1,66 @@
+# ==============================================================================
+# .gitignore - Đồ án IE313: Phân tích & Trực quan dữ liệu (Nhóm 10)
+# ==============================================================================
+
+# --- Môi trường ảo (Virtual Environments) ---
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# --- Bộ nhớ đệm Python & Tệp nhị phân biên dịch (Bytecode) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Jupyter Notebooks Checkpoints ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# --- Kiểm thử & Báo cáo độ bao phủ mã nguồn (Testing & Coverage) ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# --- Linter & Code Formatter (Ruff, Mypy) ---
+.ruff_cache/
+.mypy_cache/
+
+# --- Tệp nén khi đóng gói nộp bài (Archives) ---
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# --- IDE & Hệ điều hành (OS / Editor artifacts) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/settings.json
